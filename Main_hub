@@ -1,0 +1,44 @@
+import assistant
+import calculator
+import converter
+import weather
+import tictactoe
+import calendar_app
+
+
+
+
+
+
+
+
+
+apps = {
+    "calculator": calculator.run,
+    "assistant": assistant.run,
+    "converter": converter.run,
+    "weather": weather.run,
+    "tictactoe" : tictactoe.run,
+    "calendar" : calendar_app.run
+
+
+    # add more apps right here
+}
+
+while True:
+        print("\n--- SYSTEM READY ---")
+        choice = input("What would you like to open? (or type 'exit')\n>").lower()
+
+        if choice == "exit":
+            print("Shutting down...")
+            break
+        #checks apps dictionary
+        elif choice == "help":
+            print("\n --- Available Applications ---" "\n calculator \n assistant \n converter")
+            
+
+        elif choice in apps:
+            apps[choice]()
+        
+        else:
+            print(f"Sorry, '{choice}' is not a recognized app.")
