@@ -5,14 +5,14 @@ This project is a app hub that can be ran right in the terminal
 
 current features:
 
-Basic Calculator (+, -, /, *)
+  - Basic Calculator (+, -, /, *)
   - AI assistant
   - Unit converter (Imperial to Metric and vice versa)
   - Tictactoe
   - Weather app
 
 How to run
-Download the programs and run it with your code editor
+  - Download the programs and run it with your code editor
 
 
 Prequesites
