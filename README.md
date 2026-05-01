@@ -4,7 +4,7 @@ This project is a app hub that can be ran right in the terminal
 
 current features:
 
-Basic Calculator (+, -, /, *)
+Basic Calculator (+, -, /, *) 
 AI assistant
 Unit converter (Imperial to Metric and vice versa)
 Tictactoe
