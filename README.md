@@ -14,6 +14,9 @@ current features:
 How to run
   - Download the programs and run it with your code editor
 
+Youtube demo link
+- https://www.youtube.com/watch?v=SZiSxcAWgS4
+
 
 Prequesites
 
